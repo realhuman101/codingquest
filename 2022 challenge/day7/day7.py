@@ -5,7 +5,7 @@ import hashlib
 import collections
 import re
 
-with open('2022 challenge/day7/example.txt') as file: puzzle = [list(map(int,i.strip().split(' '))) for i in file.readlines()]
+with open('2022 challenge/day7/input.txt') as file: puzzle = [list(map(int,i.strip().split(' '))) for i in file.readlines()]
 
 # print(puzzle)
 
