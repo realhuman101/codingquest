@@ -37,4 +37,4 @@ for description,mined,prevHash,currentHash in puzzle:
             mine += 1
         pass
 
-print(hashThing)
+print(hashThing) # Output: 000000b60719f04f18d3ae69d12449e48d25dbb1d2e0514ff4d8decede19f728
