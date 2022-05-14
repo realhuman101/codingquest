@@ -33,7 +33,9 @@ def generate_Data(data):
         new_data.append(format(ord(i), '08b'))
     return new_data
 
-with Image.open('2022 challenge/day10/image.png') as im:
+with Image.open('2022 challenge/day10/input.png') as im:
     output = decode(im)
 
-print(output) # answer is cake
+print(output) 
+answer = re.sub(r'[^\w\s]','',output.split(' ')[-1])
+print(f"\n\n{answer = }")
